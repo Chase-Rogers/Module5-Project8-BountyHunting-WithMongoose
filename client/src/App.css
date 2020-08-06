@@ -1,0 +1,15 @@
+.bounty {
+  border: 1px solid black;
+  width: 70vw;
+  margin: auto;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  margin: 5vh;
+}
+
+.faction {
+  text-align: center;
+}
