@@ -27,14 +27,6 @@ bountiesRouter
 
 // Get one
 bountiesRouter.get("/:bountyId", (req, res, next) => {
-    // const bountyId = req.params.bountyId;
-    // const foundBounty = bounties.find((bounty) => bounty._id === bountyId)
-    // if(!foundBounty) {
-    //     const error = new Error(`The item with id ${bountyId} found.`)
-    //     res.status(500)
-    //     return next(error)
-    // };
-    // res.status(200).send(foundBounty);
     Bounty.find({_id: req.params.bountyId}, (err, bounty) => {
         if(err) {
             res.status(500)
