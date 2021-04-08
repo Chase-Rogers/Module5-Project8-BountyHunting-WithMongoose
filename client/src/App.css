@@ -1,8 +1,21 @@
-.bounty {
+.Sith {
   border: 1px solid black;
   width: 70vw;
   margin: auto;
   text-align: center;
+  background: url("../../client/src/resources/PinClipart.com_starship-clipart_3723542.png") no-repeat left;
+  background-size: 30vh;
+  background-color: white;
+}
+
+.Jedi {
+  border: 1px solid black;
+  width: 70vw;
+  margin: auto;
+  text-align: center;
+  background: url("../../client/src/resources/PinClipart.com_star-wars-light-saber_1713949.png") no-repeat left;
+  background-size: 30vh;
+  background-color: white;
 }
 
 .form {
@@ -12,4 +25,8 @@
 
 .faction {
   text-align: center;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1952&q=80") no-repeat fixed center;
 }

@@ -11,12 +11,12 @@ const Bounty = (props) => {
     };
 
     return (
-        <div className="bounty">
+        <div className={faction}>
             {!editToggle ? (
                 <>
                     <h1>Name: {firstName} {lastName} </h1>
                     <h3>Alive: {status} </h3>
-                    <h3>Reward: {reward} Berries</h3>
+                    <h3>Reward: {reward} Credits</h3>
                     <h3>Faction: {faction} </h3>
                     <button onClick={() => props.handleDelete(_id)}>
                         Delete
